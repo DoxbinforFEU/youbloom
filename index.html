@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Cali — A Love Letter</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="ld-name">Cali</div>
+  <div class="ld-sub" id="ld-sub">Don't stop, I'm here and very proud of you ✦</div>
+  <div class="ld-bar" id="ld-bar"></div>
+</div>
+
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+<div id="mlight"></div>
+<div id="prog"></div>
+
+<div id="ambient"><div class="orb"></div><div class="orb"></div><div class="orb"></div></div>
+<div id="stars"></div>
+
+<!-- ========== HERO ========== -->
+<section id="hero" class="sec">
+  <div id="particles"></div>
+  <h1 class="hero-title" id="hero-title">Cali</h1>
+  <p class="hero-sub" id="hero-sub">Courageous. Resilient. Gorgeous.</p>
+  <p class="hero-tag" id="hero-tag">— Only for you —</p>
+  <div class="scroll-ind" id="scroll-ind">
+    <span>scroll</span><div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ========== OPENING QUOTE ========== -->
+<section class="sec">
+  <div class="container">
+    <div class="glass-block reveal quote-wrap">
+      <p class="quote-text">"The windshield is bigger than the rear view mirror. Because what's infront of you, it's much more important than what's behind you."</p>
+      <p class="quote-attr">✦ Keep this in mind ✦</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ========== IMAGE 1: Sleeping – side layout ========== -->
+<!-- img1 is portrait, sleeping/resting face. Show it tall and centered with text beside. -->
+<section class="sec">
+  <div class="container">
+    <div class="layout-side">
+      <div class="text-col reveal">
+        <span class="chapter-label">Chapter I — Peace</span>
+        <h2 class="section-title">You're getting there,<br>be proud of yourself.</h2>
+        <div class="accent-bar"></div>
+        <p class="section-body">The way you push yourself each day to become better, inspires me in a way that I can't even explain.</p>
+      </div>
+      <div class="img-card reveal">
+        <div class="img-card-border"></div>
+        <img src="images/img1-sleeping.jpg" alt="Cali resting">
+        <div class="img-card-glow"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="sep"><div class="sep-dot"></div></div>
+
+<!-- ========== IMAGE 2: Couple hug – flip layout ========== -->
+<!-- img2 is portrait, hug selfie. Shown large on left, text right. -->
+<section class="sec">
+  <div class="container">
+    <div class="layout-side flip">
+      <div class="img-card reveal">
+        <div class="img-card-border"></div>
+        <img src="images/img2-couple-hug.jpg" alt="Together">
+        <div class="img-card-glow"></div>
+      </div>
+      <div class="text-col reveal">
+        <span class="chapter-label">Chapter II — Connection</span>
+        <h2 class="section-title">Home,<br>Safe Home.</h2>
+        <div class="accent-bar"></div>
+        <p class="section-body">The way you hold me into your arms makes me feel some type of security and assurance that no one could ever explain or even fathom of. I'm looking forward to what we can bring within our premise, Our home.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== STORY 1 ========== -->
+<section class="sec sec--tight">
+  <div class="container">
+    <div class="reveal story-block">
+      <span class="story-num">01</span>
+      <h2 class="section-title" style="position:relative;z-index:1">Your eyes never lie.</h2>
+      <p class="section-body" style="margin-top:1rem">You carry so much that even I would've given up in life if I had to go through what you had gone through. Your perseverance shows how inspiring you are to me, don't ever stop loving what you do. You're doing very well and I can tell you that every single second.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== IMAGE 3: Sitting together – FULL CINEMATIC ========== -->
+<!-- img3 is portrait/vertical. Good for cinematic with overlay. -->
+<section class="sec" style="padding-block:0">
+  <div class="layout-cinematic reveal">
+    <div class="cinematic-media">
+      <img src="images/img3-sitting-together.jpg" alt="Our moments together">
+    </div>
+    <div class="cinematic-overlay"></div>
+    <div class="cinematic-caption">
+      <h3>"Everybody says they'll die for the woman they love,<br>I'll live for you."</h3>
+    </div>
+  </div>
+</section>
+
+<!-- ========== STORY 2 ========== -->
+<section class="sec">
+  <div class="container">
+    <div class="reveal story-block story-block--right">
+      <span class="story-num" style="display:block;text-align:right">02</span>
+      <h2 class="section-title" style="position:relative;z-index:1;text-align:right">You shine brightest amongst everything that was built from an atom in every universe.</h2>
+      <div class="accent-bar" style="margin-left:auto;background:linear-gradient(270deg,var(--p4),transparent)"></div>
+      <p class="section-body" style="margin-top:1rem">Don't ever look down on yourself, I want you to face the truth that you are a really great woman for me and the people around you. You're too hard on yourself, don't worry too much baby. Rest if you need to, I'll always value you the way that you had always deserved.</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ========== MOTIVATION CARDS ========== -->
+<section id="cards-sec" class="sec">
+  <div class="container">
+    <h2 class="cards-title reveal">Motivational Cards For You</h2>
+    <p class="cards-sub reveal">Tap each card — a message is waiting just for you ✦</p>
+    <div class="cards-grid" id="cards-grid"></div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ========== IMAGES 4 & 5: Her face ========== -->
+<!-- Both are portrait screen-capture photos. Show as DUO side by side. -->
+<section class="sec">
+  <div class="container">
+    <div class="reveal chapter-intro">
+      <span class="chapter-label" style="justify-content:center;display:block">Chapter III — Beauty</span>
+      <h2 class="section-title" style="max-width:600px;margin:0 auto">You are breathtaking.</h2>
+      <p class="section-body" style="max-width:550px;margin:1rem auto 0">Everytime I go somewhere, I feel like I'm not where I want to be, and everything I'm with you, I can be anywhere and feel such peace and comfort.</p>
+    </div>
+
+    <!-- DUO layout: both portrait images shown at full natural ratio -->
+    <div class="layout-duo">
+      <div class="duo-card reveal">
+        <img src="images/img4-face.jpg" alt="Cali">
+      </div>
+      <div class="duo-card reveal">
+        <!-- Offset second card slightly down for editorial feel -->
+        <img src="images/img5-face.jpg" alt="Cali">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== IMAGE 6: Beautiful selfie – centered portrait showcase ========== -->
+<section class="sec sec--compact-top">
+  <div class="container">
+    <div class="layout-portrait">
+      <div class="portrait-text left reveal">
+        <span class="chapter-label">Chapter IV</span>
+        <h2 class="section-title" style="font-size:clamp(1.5rem,3vw,2.2rem)">Your hard earned sexy body is heaven.</h2>
+        <div class="accent-bar"></div>
+        <p class="section-body" style="font-size:1rem">The physical contact we have is so intimate, lovely, and satisfying in a lot of ways that I can't even describe.</p>
+      </div>
+
+      <div class="portrait-wrap reveal">
+        <div class="img-card-border"></div>
+        <img src="images/img6-selfie.jpg" alt="Cali selfie">
+        <div class="img-card-glow"></div>
+      </div>
+
+      <div class="portrait-text right reveal">
+        <p class="section-body" style="font-size:1rem;font-family:'Playfair Display',serif;font-style:italic;color:var(--p5);line-height:1.7">"Loving you is knowing you, I learned that early on, because I never would want you to feel unseen."</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== IMAGE 7: Looking away – side layout ========== -->
+<section class="sec sec--depth">
+  <div class="container">
+    <div class="layout-side">
+      <div class="text-col reveal">
+        <span class="chapter-label">Chapter V — Depth</span>
+        <h2 class="section-title">There Is So Much<br>More I Can Offer</h2>
+        <div class="accent-bar"></div>
+        <p class="section-body">I might not be earning anything since I don't have a job, but I can always assure you that I will try my hardest to offer you what I have. </p>
+      </div>
+      <div class="img-card reveal">
+        <div class="img-card-border"></div>
+        <img src="images/img7-looking-away.jpg" alt="Cali">
+        <div class="img-card-glow"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== STORY 3 ========== -->
+<section class="sec">
+  <div class="container">
+    <div class="reveal story-block story-block--center">
+      <span class="story-num" style="display:block;text-align:center">03</span>
+      <h2 class="section-title" style="position:relative;z-index:1">Don't ever think that you're not doing enough, you are.</h2>
+      <div class="accent-bar" style="margin:1.5rem auto"></div>
+      <p class="section-body" style="margin-top:1rem">Times where you end up thinking if what you're doing is enough, it is more than enough my love. Don't ever doubt the efforts and love you put into every bit of your words. I love you with the entirety of my soul.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FINAL ========== -->
+<section id="final" class="sec">
+  <div class="final-glow"></div>
+  <div class="hearts" id="hearts"></div>
+  <div class="final-inner">
+    <div class="final-lbl reveal">My everlasting love for you.</div>
+    <h2 class="final-h reveal">I Love You,<br>BubbiLovey.</h2>
+    <p class="final-msg reveal">Thank you for being in the darkest times, where I can't even process what I've been thinking every single day. You were there, always present.<br><br>Above and beyond, you'll always be the person I would love and bond.</p>
+    <div class="final-sig reveal">— Miko Baby Boy, is always yours. ✦</div>
+  </div>
+</section>
+
+<!-- MUSIC PLAYER -->
+<div id="player">
+  <div class="pl-title" id="pl-title">Noah Kahan ♪</div>
+  <div class="pl-artist" id="pl-artist">End of August</div>
+  <div class="pl-viz" id="pl-viz"></div>
+  <div class="pl-times"><span id="pl-cur">0:00</span><span id="pl-dur">0:00</span></div>
+  <div class="pl-prog" id="pl-prog"><div class="pl-fill" id="pl-fill"></div></div>
+  <div class="pl-controls">
+    <button class="pl-btn" id="pl-btn" onclick="togglePlay()">▶</button>
+    <div class="pl-vol">
+      <span class="pl-vol-ico">♪</span>
+      <input type="range" min="0" max="100" value="70" oninput="setVol(this)" style="--v:70%">
+    </div>
+  </div>
+  <!-- Embedded song (removed upload UI) -->
+  <audio id="aud" preload="auto" onended="endAud()">
+    <source src="endofaugust.mp3" type="audio/mpeg">
+  </audio>
+</div>
+
+<script src="script.js"></script></body>
+</html>
